@@ -143,12 +143,12 @@
       min-width:0;
     }
     .brand-mark{
-      width:44px;height:44px;
-      border-radius:14px;
-      background:linear-gradient(135deg, var(--primary), var(--primary-2));
-      display:grid;place-items:center;
+      width:170px;height:44px;
+      border-radius:0;
+      background:none;
+      display:flex;align-items:center;justify-content:center;
       color:#fff;
-      box-shadow:var(--shadow);
+      box-shadow:none;
       flex:0 0 auto;
     }
     .brand-copy{min-width:0}
@@ -252,7 +252,7 @@
       display:flex;
       flex-wrap:wrap;
       gap:10px;
-      margin:18px 0 22px;
+      margin:28px 0 22px;
     }
     .hero-panel{
       padding:20px;
@@ -286,6 +286,7 @@
       width:56px;height:56px;border-radius:16px;
       background:linear-gradient(135deg, rgba(15,39,64,.08), rgba(31,78,121,.12));
       display:grid;place-items:center;color:var(--primary);
+      padding-bottom:4px;
     }
 
     .stats{
@@ -504,10 +505,10 @@
     }
     .contact-item{
       display:grid;
-      grid-template-columns:44px 1fr;
-      gap:12px;
+      grid-template-columns:56px 1fr;
+      gap:18px;
       align-items:start;
-      padding:14px;
+      padding:16px;
       border:1px solid var(--line);
       border-radius:16px;
       background:linear-gradient(180deg, #fff, #f8fbfd);
@@ -618,10 +619,7 @@
     <div class="container nav-wrap">
       <a href="#top" class="brand" aria-label="Anderson Surveyors home">
         <div class="brand-mark" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path d="M4 18L12 5L20 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M8 18V14.5H16V18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-          </svg>
+          <img src="rics-logo.png" alt="RICS Regulated by RICS" style="width:100%;height:auto;object-fit:contain;">
         </div>
         <div class="brand-copy">
           <div class="brand-title">Anderson Surveyors</div>
